@@ -1,0 +1,74 @@
+header{
+    text-align:center;
+    background-color: white;
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+    width: 50%;
+}
+  
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+
+#facade{
+    float: center;
+    width: 30%;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+#logo_ets{
+    float: left;
+    width: 20%;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
+#logo_ab{
+    float: right;
+    width: 20%;
+    padding-right: 100px;
+    padding-top: 60px;
+}
+
+footer{
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    bottom: 0px;
+}
+
+.fas, .fab{
+    color: white;
+}
+
+body{
+    background-image: url(image/logo_backnoir.jpg);
+    background-repeat: repeat;
+}
+
+.presentation{
+    width: auto;
+    border: 15px solid red;
+    margin: 20px;
+}
+
